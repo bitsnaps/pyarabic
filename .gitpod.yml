@@ -1,0 +1,4 @@
+tasks:
+  - init: python setup.py install
+    command: |
+      python -m unittest  tests/*.py tests/unit/*.py
